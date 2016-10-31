@@ -45,7 +45,7 @@ Namespace rrathman.Ex2GTest
 #End Region
 
         Protected Sub MessageButton_Click(sender As Object, e As EventArgs) Handles MessageButton.Click
-            MessageLabel.Text = "Hello " & FirstNameTextbox.Text & " " & LastNameTextbox.Text
+            MessageLabel.Text = "Hello, " & FirstNameTextbox.Text & " " & LastNameTextbox.Text
 
         End Sub
     End Class

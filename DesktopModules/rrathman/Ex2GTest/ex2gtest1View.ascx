@@ -8,7 +8,7 @@
 
         <div class="dnnFormItem">
 
-            <dnn:label id="plFirstName" runat="server" text="First Name" helptext="Enter your first name." controlname="FirstNameTextbox" />
+            <dnn:label id="p1FirstName" runat="server" text="First Name" helptext="Enter your first name." controlname="FirstNameTextbox" />
 
             <asp:textbox id="FirstNameTextbox" runat="server" maxlength="25" />
 
